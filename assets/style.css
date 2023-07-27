@@ -1,0 +1,28 @@
+.img-wrap {
+    display: flex;
+    flex-wrap: wrap;
+}
+.img-item {
+    position: relative;
+    width: 24%;
+    margin-right: 1%;
+    margin-bottom: 1%;
+}
+span.close-btn {
+    background: red;
+    color: #fff;
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    text-align: center;
+    line-height: 20px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+}
+.img-item img {
+    height: 100px;
+    width: 100%;
+    object-fit: cover;
+}
